@@ -1,0 +1,70 @@
+==Exercise-1 (Week 2)==
+
+==Newton Second Law==
+
+SET massa equal to 600
+SET percepatan equal to 2
+SET resultanGaya equal to massa multiply with percepatan
+
+DISPLAY "resultanGaya"
+
+--------------------------------------------------------------
+==Tahun Kabisat==
+
+Algoritma:
+1. menentukkan tahun yang ingin dicek.
+2. mengecek apakah angka yang ingin di cek habis di bagi 4 dan tidak habis dibagi 100?
+3. mengecek apakah angka yang ingin di cek habis dibagi 4, habis dibagi 100, dan habis dibagi 400?
+4. Jika pernyataan nomor 2 dan nomor 3 benar, maka tahun tersebut adalah tahun kabisat.
+
+Pseudocode:
+SET tahun equal to 2019
+IF tahun doesnt have remains divided by 4 AND have remains divided by 100
+DISPLAY tahun kabisat
+  ELSE IF tahun doesnt have remains divided by 4 AND by 100 AND by 400
+  DISPLAY tahun kabisat
+ELSE 
+  DISPLAY bukan tahun kabisat
+
+--------------------------------------------------------------
+==Laundry Day==
+
+Algoritma:
+1. Bersiap untuk menghitung baju sebelum dimasukkan ke mesin laundry.
+2. Memasukkan baju pertama ke mesin laundry.
+3. Menghitung jumlah baju yang telah dimasukkan ke mesin laundry.
+4. Mengulangi proses nomor 2 dan nomor 3 untuk baju kedua dan seterusnya sampai 20 baju dimasukkan ke mesin laundry.
+
+Pseudocode:
+SET shirt equal to 0
+WHILE shirt less than equal to 20
+  DISPLAY shirt
+  ADD shirt by 1 until 20
+DISPLAY "shirt already 20"
+
+----------------------------------------------------------------
+==Periksa Kuku==
+
+Algoritma:
+1. Guru akan mulai berkeliling kelas dari murid yang paling pertama untuk melihat apakah kuku muridnya panjang atau pendek
+2. guru mulai berkeliling kelas dan menjumpai murid pertamanya.
+3. guru melihat kuku murid yang pertama dijumpainya, apakah panjang atau pendek?
+4. jika kukunya panjang, maka guru akan menghukum murid tersebut.
+5. jika kukunya pendek, maka guru akan memuji murid tersebut.
+6. guru berkeliling kembali untuk menjumpai murid selanjutnya.
+7. mengulangi proses dari nomor 3 - nomor 6, sampai seluruh 40 murid dijumpai guru tersebut.
+
+Pseudocode:
+SET numberOfStudent equal to 1
+SET nail equal to long
+
+WHILE student less than equal to 40
+  DISPLAY "numberOfStudent"
+	IF teacher find student with long nail
+	DISPLAY "teacher will punish the student"
+	  ELSE
+	DISPLAY "teacher will praise the student"
+  ADD student by 1 until 40
+DISPLAY "all student already checked"
+
+-----
